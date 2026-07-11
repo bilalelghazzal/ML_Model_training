@@ -57,7 +57,6 @@ imbalanced-learn
 matplotlib
 seaborn
 joblib
-psutil
 ```
 
 ## Structure des fichiers
