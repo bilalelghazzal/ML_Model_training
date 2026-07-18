@@ -2,7 +2,7 @@
 
 Ce projet implémente un pipeline de Machine Learning pour la détection d'attaques réseau (DDoS, DoS, Brute Force, Port Scanning, Web Attacks, Bots) à partir du dataset **CICIDS2017** (version nettoyée/prétraitée). Trois modèles de classification sont entraînés et comparés : **Random Forest**, **XGBoost** et **KNN**.
 
-## Objectif
+## Objectif 
 
 Classifier chaque flux réseau (« flow ») en trafic normal ou en l'un des types d'attaque présents dans le dataset, à partir d'un sous-ensemble des 20 caractéristiques les plus importantes du trafic (ports, tailles de paquets, durées de flux, flags TCP, etc.).
 
@@ -70,6 +70,6 @@ joblib
 └── knn_model.joblib               # Modèle KNN entraîné
 ```
 
-## Utilisation
+## Utilisation : 
 
 Le notebook est conçu pour être exécuté sur **Google Colab** (montage de Google Drive, téléchargement via l'API Kaggle). Placer un fichier `kaggle.json` valide à la racine avant exécution.
